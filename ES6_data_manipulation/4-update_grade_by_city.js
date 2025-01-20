@@ -6,7 +6,7 @@ export default function updateStudentGradeByCity(listOfStudents, city, newGrades
     //? -> throws error if array undefined
 
     const grade = grades ? grades.grade : 'N/A';
-  
+
     return {
     ...student,
     grade,
