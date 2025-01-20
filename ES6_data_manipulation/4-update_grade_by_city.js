@@ -8,8 +8,8 @@ export default function updateStudentGradeByCity(listOfStudents, city, newGrades
     const grade = grades ? grades.grade : 'N/A';
 
     return {
-     ...student,
-      grade,
+      ...student,
+        grade,
     };
   });
 
