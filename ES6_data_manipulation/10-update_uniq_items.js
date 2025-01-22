@@ -10,4 +10,4 @@ export default function updateUniqueItems(mapArg) {
   });
 
   return mapArg;
-}
+  }
